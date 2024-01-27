@@ -6,5 +6,8 @@ export default defineNuxtConfig({
   ],
   pinia: {
     storesDirs: ['./stores/**'],
+  },
+  devServer: {
+    port: 4000
   }
 })
