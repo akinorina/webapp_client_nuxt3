@@ -1,9 +1,14 @@
 <script setup lang="ts">
-import { useCounterStore } from '@/stores/counter';
+import { useCounterStore } from '../stores/counter'
 
 const store = useCounterStore();
 
-definePageMeta({ layout: "normal" });
+const runtimeConfig = useRuntimeConfig()
+console.debug('runtimeConfig', runtimeConfig)
+console.debug('runtimeConfig.apiSecret', runtimeConfig.apiSecret)
+console.debug('runtimeConfig.public.apiBase', runtimeConfig.public.apiBase)
+
+definePageMeta({ layout: "normal" })
 </script>
 
 <template>
