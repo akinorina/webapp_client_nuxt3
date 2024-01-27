@@ -2,8 +2,8 @@
   <nav>
     <ul class="nav-ul">
       <li><NuxtLink to="/">Top</NuxtLink></li>
-      <li><NuxtLink to="/samples/">samples</NuxtLink></li>
-      <li><NuxtLink to="/store-tests/">store-tests</NuxtLink></li>
+      <li><NuxtLink to="/store-tests">index</NuxtLink></li>
+      <li><NuxtLink to="/store-tests/sample001">sample001</NuxtLink></li>
     </ul>
   </nav>
   <div>
@@ -12,6 +12,7 @@
 </template>
 
 <style lang="scss">
+
 .nav-ul {
   display: flex;
   flex-flow: row nowrap;
@@ -26,8 +27,8 @@
     border-right: 1px #fcc solid;
     padding: 0 10px;
   }
-
   li:last-child {
     border: none;
   }
-}</style>
+}
+</style>

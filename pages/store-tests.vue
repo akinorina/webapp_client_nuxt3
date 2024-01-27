@@ -5,5 +5,5 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({ layout: "samples" });
+definePageMeta({ layout: "store-tests" });
 </script>
