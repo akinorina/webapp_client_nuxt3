@@ -8,6 +8,9 @@ console.debug('runtimeConfig', runtimeConfig)
 console.debug('runtimeConfig.apiSecret', runtimeConfig.apiSecret)
 console.debug('runtimeConfig.public.apiBase', runtimeConfig.public.apiBase)
 
+const appConfig = useAppConfig()
+console.debug('appConfig.foo', appConfig.foo)
+
 definePageMeta({ layout: "normal" })
 </script>
 
