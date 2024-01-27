@@ -11,7 +11,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 .nav-ul {
   display: flex;
   flex-flow: row nowrap;

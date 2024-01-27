@@ -42,7 +42,7 @@ definePageMeta({ layout: "normal" })
   </footer>
 </template>
 
-<style lang="scss">
+<style scoped lang="scss">
 
 .store-tests {
   margin: 10px;
